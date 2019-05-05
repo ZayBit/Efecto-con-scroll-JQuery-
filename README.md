@@ -16,3 +16,7 @@ Es lo unico que es necesario y los otros archivos son solo para la demostracion 
 ![](https://i.postimg.cc/J7NB6qJn/Captura1.png)
 
     Basicamente añade una clase al elemento seleccionado al pasar por ese elemento cuando el scroll baja
+    
+## Un gif de referencia
+
+![](https://i.postimg.cc/J7NB6qJn/Captura1.png)
