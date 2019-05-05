@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 150px auto;
+  width: 50%;
+}
+.container .header {
+  background-color: #393c53;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  position: relative;
+  height: 50vh;
+  font-size: 40px;
+}
+.container .header h1 {
+  margin: 50px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+}
+.container .header i {
+  position: absolute;
+  bottom: 80px;
+  animation: arrowDown 1s infinite ease;
+}
+@keyframes arrowDown {
+  from {
+    bottom: 80px;
+    opacity: 1;
+  }
+  to {
+    bottom: 30px;
+    opacity: 0;
+  }
+}
+.container p {
+  padding: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+.container .content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  transition: all 300ms ease;
+  opacity: 0;
+}
+.container .content .item {
+  width: 100%;
+  padding: 25px;
+}
+.container .content .item h2 {
+  font-family: "Open Sans";
+}
+.container .content .item img {
+  width: 100%;
+  object-fit: cover;
+}
+.container .content .row-content {
+  display: flex;
+  flex-direction: row;
+}
+.container .content-active {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
