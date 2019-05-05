@@ -19,4 +19,4 @@ Es lo unico que es necesario y los otros archivos son solo para la demostracion 
     
 ## Un gif de referencia
 
-![](https://i.postimg.cc/J7NB6qJn/Captura1.png)
+![](https://media.giphy.com/media/Wq47gB49fi7CuuVI46/giphy.gif)
